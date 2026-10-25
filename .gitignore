@@ -1,0 +1,20 @@
+
+# Python virtual environment
+.venv/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local environment variables and secrets
+.env
+.env.*
+
+# Local Streamlit secrets
+.streamlit/secrets.toml
+
+# Local candle database files
+data/candles.db
+data/candles.db-shm
+data/candles.db-wal
